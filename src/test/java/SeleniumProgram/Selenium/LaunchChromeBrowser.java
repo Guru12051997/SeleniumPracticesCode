@@ -18,6 +18,11 @@ public class LaunchChromeBrowser {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		
+		
+		System.out.println("this is my new code1");
+		System.out.println("this is my new code12");
+		System.out.println("this is my new code123");
+		
 
 	}
 
