@@ -22,11 +22,9 @@ public class GetWindowsHandles {
 
 		Set<String> handles = driver.getWindowHandles();
 		Iterator<String> it = handles.iterator();
-
-		String parentWindowID = it.next();
+        String parentWindowID = it.next();
 		System.out.println("parentid is --->" + parentWindowID);
-		String ChildWindowID = it.next();
-
+		String ChildWindowID = it.next(); 
 		System.out.println("childid is---> " + ChildWindowID);
 
 		driver.switchTo().window(ChildWindowID);
